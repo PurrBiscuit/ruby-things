@@ -1,5 +1,9 @@
 # A Dumping Group for random ruby things
 
+## Examples
+
+- [Inheritance](examples/inheritance/) - working example of how inheritance works in Ruby with comments.
+
 ## Chef
 
 Some scripts that actually have some real world application.
@@ -22,7 +26,7 @@ Results of script will generate a csv on your Desktop called "knife-search-node-
 
 Uses the `knife ssh` command to generate a csv file of the results.  Needs the following options set to work:
 
-`-n, --name` - name of the nodes that you want to run the knife ssh command against (can use wildcards like *)
+`-n, --name` - name of the nodes that you want to run the knife ssh command against (can use wildcards like * )
 
 `-c, --command` - command that you want run on the node names specified from --name option above
 
