@@ -1,0 +1,5 @@
+FROM ruby:2.5-slim-stretch
+
+ENV SERVICE_ROOT /service
+RUN mkdir $SERVICE_ROOT
+WORKDIR $SERVICE_ROOT
