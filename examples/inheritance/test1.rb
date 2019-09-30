@@ -1,6 +1,6 @@
 # Need to require_relative here to make the Test2 class
 # available to Test1 to inherit from the test2.rb file
-require_relative 'test2'
+require 'test2'
 
 # inherit the Test2 class into the Test1 class to make
 # the methods from Test2 available to Test1 (and as a result,

@@ -1,6 +1,10 @@
-# Need to require_relative here to make the Test1 class
+# add this directory to the load path to allow the use of
+# the require method below and not require_relative
+$LOAD_PATH.push(File.expand_path(".", __dir__))
+
+# Need to require here to make the Test1 class
 # available to Test to inherit from the test1.rb file
-require_relative 'test1'
+require 'test1'
 
 # inherit the Test1 class into the Test class to make
 # the methods from Test1 available to Test
